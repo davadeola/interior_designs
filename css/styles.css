@@ -1,0 +1,104 @@
+
+body{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+  padding: 100px;
+
+}
+
+.title{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.one{
+  background-color: grey;
+  color: white;
+  float: left;
+  width: auto;
+  padding: 50px;
+
+}
+.one p{
+  float: left;
+  font-family: 'Parisienne', cursive;
+  font-size: 25px;
+  width: 60%;
+
+}
+.two p{
+  float: right;
+  padding-left: 20px;
+  font-family: 'Parisienne', cursive;
+  font-size: 25px;
+  width: 60%;
+}
+.two{
+  background-color: #0da853;
+  color: white;
+  float: left;
+  width: auto;
+  padding: 50px;
+}
+
+.s p{
+  float: left;
+  padding-left: 20px;
+  font-family: 'Parisienne', cursive;
+  font-size: 25px;
+  width: 60%;
+}
+.s{
+  background-color: #1e6ded;
+  color: white;
+  float: left;
+  width: auto;
+  padding: 50px;
+}
+.e p{
+  float: right;
+  padding-left: 20px;
+  font-family: 'Parisienne', cursive;
+  font-size: 25px;
+  width: 60%;
+}
+.e{
+  background-color: #795ca5;
+  color: white;
+  float: left;
+  width: auto;
+  padding: 50px;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: auto;
+    height: auto;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+
+}
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('img/tyu.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
